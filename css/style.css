@@ -233,6 +233,49 @@ header {
     width: 65%;
 }
 
+.hebergements-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1.88rem;
+    margin-top: 1.88rem;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    aspect-ratio: 243 / 124;
+    border-radius: 1.25rem 1.25rem 0 0;
+    object-fit: cover;
+}
+
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 0.94rem;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-bottom: 0.5rem;
+}
+
+.hebergements-link {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: 1.88rem;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
