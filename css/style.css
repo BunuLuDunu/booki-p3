@@ -321,6 +321,34 @@ header {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    margin-block: 2.19rem;
+}
+
+.activities .section-title {
+    margin-bottom: 1.88rem;
+}
+
+.activities .activities-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.88rem;
+}
+
+.activities-cards img {
+    width: 100%;
+    aspect-ratio: 297.5 / 380;
+    border-radius: 1.25rem 1.25rem 0 0;
+    object-fit: cover;
+}
+
+.activities-cards .card-title {
+    margin: 1.25rem 1.19rem;
+}
 
 
 
